@@ -1,7 +1,12 @@
-.card
+.box
 {
-  border-radius: 10%;
-  background-color: yellow;
-  width: 20%;
-  height: 20%;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgb(255, 68, 0);
+}
+
+.navb{
+  background-color: black;
+  margin: 4px;
+  padding: 8px;
 }
