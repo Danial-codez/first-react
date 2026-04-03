@@ -136,7 +136,40 @@ const App = () => {
       pay: "$24/hr",
       location: "Karachi, Pakistan",
     },
+    {
+      brandLogo:
+        "https://logos-world.net/wp-content/uploads/2021/09/Intel-Logo-2006-2020-700x394.png",
+      company: "Intel",
+      datePosted: "3 days ago",
+      post: "Hardware Engineer",
+      tag1: "Full-time",
+      tag2: "Junior",
+      pay: "$26/hr",
+      location: "Karachi, Pakistan",
+    },
+    {
+      brandLogo:
+        "https://logos-world.net/wp-content/uploads/2020/11/Hewlett-Packard-Logo-2008-2014.png",
+      company: "HP",
+      datePosted: "6 days ago",
+      post: "Systems Analyst",
+      tag1: "Full-time",
+      tag2: "Senior",
+      pay: "$38/hr",
+      location: "Karachi, Pakistan",
+    },
+    {
+      brandLogo: "https://1000logos.net/wp-content/uploads/2017/08/Salesforce-logo.jpg",
+      company: "Salesforce",
+      datePosted: "4 days ago",
+      post: "CRM Developer",
+      tag1: "Part-time",
+      tag2: "Junior",
+      pay: "$21/hr",
+      location: "Karachi, Pakistan",
+    }
   ];
+
   return (
     <>
       <Navbar />

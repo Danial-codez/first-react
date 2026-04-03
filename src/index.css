@@ -21,9 +21,14 @@
   justify-content: space-between;
   padding: 10px;
   background-color: rgb(234, 234, 234);
-  height: 240px;
+  height: 220px;
   border-radius: 10px;
-  width: 220px;
+   transition: transform 0.2s ease;
+  width: 205px;
+}
+
+.parent:hover {
+  transform: scale(1.05);
 }
 
 .upper {
@@ -91,6 +96,7 @@
 
 .card_container
 {
+  justify-content: center;
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
