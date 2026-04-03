@@ -1,12 +1,97 @@
-.box
-{
+@import url("https://googleapis.com");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
   border-radius: 5px;
   padding: 15px;
   background-color: rgb(255, 68, 0);
 }
 
-.navb{
+.navb {
   background-color: black;
   margin: 4px;
   padding: 8px;
+}
+.parent {
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(234, 234, 234);
+  height: 240px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 3px;
+}
+
+.neech {
+  display: flex;
+  gap: 4px;
+}
+.neech button {
+  background-color: rgb(218, 215, 215);
+  border: none;
+  border-radius: 3px;
+}
+
+.line {
+  border: 1px solid rgb(218, 215, 215);
+}
+
+.save {
+  background-color: rgb(218, 215, 215);
+  border-radius: 3px;
+}
+
+.designer , .rate {
+  font-weight: bold;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+
+.small {
+  font-size: small;
+  opacity: 0.5;
+}
+
+.loca {
+  font-size: small;
+  opacity: 0.5;
+}
+
+.apply button {
+  filter: invert(1);
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_container
+{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
 }
